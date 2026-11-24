@@ -1,18 +1,47 @@
-# React + Vite
+# 🐉 Dragon CJ — Full-Stack E-Commerce Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive full-stack e-commerce web application built for **Dragon CJ**, a direct-to-consumer (D2C) premium apparel brand. Designed with a bold, high-contrast dark theme and backed by a scalable RESTful API.
 
-Currently, two official plugins are available:
+🔗 **Live Website:** [https://dragoncj-frontend.vercel.app](https://dragoncj-frontend.vercel.app/)  
+⚙️ **Backend API:** [https://dragoncj-clothing-brand.onrender.com](https://dragoncj-clothing-brand.onrender.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **Modern Responsive UI:** Built with React and Bootstrap 5 for seamless browsing across desktop, tablet, and mobile devices.
+- **Dynamic Product Catalog:** Fetches real-time product data from MongoDB via custom REST APIs.
+- **User Authentication & Security:** Complete user flow including signup, login, profile management, and email-based password reset functionality.
+- **Full-Stack Cloud Deployment:** Decoupled architecture with CI/CD enabled on Vercel (Frontend) and Render (Backend).
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Frontend:**
+- React.js (Vite)
+- React Router DOM
+- Bootstrap 5 & React-Bootstrap
+- Bootstrap Icons
+
+**Backend:**
+- Node.js & Express.js
+- MongoDB Atlas (Database)
+- Nodemailer (Email & Password Reset Services)
+- CORS & Dotenv
+
+**Deployment & Tools:**
+- **Frontend Hosting:** Vercel
+- **Backend Hosting:** Render
+- **Version Control:** Git & GitHub
+
+---
+
+## 🚀 Getting Started (Run Locally)
+
+If you want to run this project on your local machine:
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/shaikabdulkhaderjilani/dragoncj-frontend.git](https://github.com/shaikabdulkhaderjilani/dragoncj-frontend.git)
+cd dragoncj-frontend
